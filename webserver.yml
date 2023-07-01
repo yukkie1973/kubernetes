@@ -7,11 +7,11 @@ spec:
   selector:
     matchLabels:
       app: webfront
-    template:
-      metadata:
-        labels:
-          app: webfront
-        spec:
+  template:
+    metadata:
+      labels:
+        app: webfront
+    spec:
       containers:
       - image: nginx
         name: webfront-container
