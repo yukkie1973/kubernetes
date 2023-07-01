@@ -16,4 +16,4 @@ spec:
       - image: nginx
         name: webfront-container
         ports:
-          - containerPorts: 80
+          - containerPort: 80
