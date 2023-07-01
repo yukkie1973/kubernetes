@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 10
   selector:
-    matchLevels:
+    matchLabels:
       app: webfront
     template:
       metadata:
