@@ -1,0 +1,3 @@
+controller:
+ config:
+ proxy-buffer-size: "16k"
